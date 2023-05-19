@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("./shara_desert_720\ \(1\).jpg");
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.icon1{
+    display: inline-block;
+    width: 80px;
+    padding-top: 20px;
+    
+}
+
+.icon2{
+    float: right;
+    width: 50px;
+    margin-top: -35px; 
+    
+}
+.menu{
+    display: block;
+    margin-right: 50px;
+    
+}
+ul{
+    display: flex;
+    justify-content: center;
+    margin-left: 990px;
+    margin-top: -60px;
+   
+}
+
+ul li{
+    list-style: none;
+    font-size: 17px;
+    margin-right: 50px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.contenar{
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.content{
+    width: 600px;
+    float: left;
+    float: left;
+    padding-top: 120px;
+}
+.btn{
+    width: 150px;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 15px;
+}
+.content h1{
+    font-size: 50px;
+    flex-wrap: wrap;
+
+
+}
+.main1{
+    width: 600px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+   
+}
+.img1{
+    width: 270px;
+    height: 270px;
+    background-image: url("./pic-1.png");
+    background-size: cover;
+    border-radius: 10px;
+    transition: 0.30s;
+
+}
+.img2{
+    width: 270px;
+    height: 270px;
+    background-image: url("./pic-2_480.png");
+    background-size: cover;
+    border-radius: 10px;
+    transition: 0.30s;
+    
+}
+.img3{
+    width: 270px;
+    height: 270px;
+    background-image: url("./pic-3_480.png");
+    background-size: cover;
+    border-radius: 10px;
+    transition: 0.30s;
+
+}
+.img4{
+    width: 270px;
+    height: 270px;
+    background-image: url("./pic-4_480.png");
+    background-size: cover;
+    border-radius: 10px;
+    transition: 0.30s;
+
+}
+#hover:hover{
+    transform:translate(0px,-8px)
+}
+@media (max-width350px){
+    .icon1{
+        float: left;
+        width:100px;
+    }
+    
+    .icon2{
+        float: right;
+        width: 50px;
+    }
+    .menu{
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        margin-left: 990px;
+       
+    }
+    
+    ul li{
+        list-style: none;
+        font-size: 17px;
+        margin-right: 50px;
+    }
+    ul li a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .contenar{
+        margin: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .content{
+        width: 600px;
+        float: left;
+        float: left;
+        padding-top: 120px;
+    }
+    .btn{
+        width: 150px;
+        font-weight: bold;
+        padding: 6px;
+        border-radius: 15px;
+    }
+    .content h1{
+        font-size: 50px;
+        flex-wrap: wrap;
+    
+    
+    }
+    .main1{
+        width: 600px;
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+       
+    }
+    .img1{
+        width: 270px;
+        height: 270px;
+        background-image: url("./pic-1.png");
+        background-size: cover;
+        border-radius: 10px;
+        transition: 0.30s;
+    
+    }
+    .img2{
+        width: 270px;
+        height: 270px;
+        background-image: url("./pic-2_480.png");
+        background-size: cover;
+        border-radius: 10px;
+        transition: 0.30s;
+        
+    }
+    .img3{
+        width: 270px;
+        height: 270px;
+        background-image: url("./pic-3_480.png");
+        background-size: cover;
+        border-radius: 10px;
+        transition: 0.30s;
+    
+    }
+    .img4{
+        width: 270px;
+        height: 270px;
+        background-image: url("./pic-4_480.png");
+        background-size: cover;
+        border-radius: 10px;
+        transition: 0.30s;
+    
+    }
+    #hover:hover{
+        transform:translate(0px,-8px)
+    }
+}
